@@ -6,28 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Actor&family=Poppins&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/833e4dbca1.js" crossorigin="anonymous"></script>
     <title>Responsive design</title>
 </head>
 <body>
     <main>
-        <nav class="grid-item grid-item-1">
-        <h4>Head.</h4>
-            <ol>
-                <li>Works</li>
-                <li>Services</li>
-                <li>Contacts</li>
-                <li>...</li>
-            </ol>
-        </nav>
-    
-        <div class="grid-item grid-item-2">
-            <h1>Musician</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Sapiente, totam magnam. 
-                Praesentium nam saepe deleniti enim.</p>
+        <div class="flex-item flex-item-1">
+            <nav>
+                <h4>Head.</h4>
+                <ol>
+                    <li class="links">Works</li>
+                    <li class="links">Services</li>
+                    <li class="links">Contacts</li>
+                    <li class="dots"><i class="fa-solid fa-ellipsis"></i></li>
+                </ol>
+            </nav>
+            <div>
+                <h1>Musician</h1>
+                <p>Fusce vehicula dolor arcu, sit amet blandit 
+                    dolor mollis nec. Donec viverra eleifend 
+                    lacus, vitae ullamcor.</p>
+            </div>
         </div>
-        <div class="grid-item grid-item-3">
-            <img src="images/Guy1.png" alt="landskape with white background">
+        <div class="flex-item flex-item-2">
+            <div class="img"></div>
         </div>
     </main>
 </body>
