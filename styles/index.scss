@@ -37,7 +37,7 @@ body {
             color: #FFFFFF;
         }
         ol {
-            align-self: center;
+            align-self: flex-end;
             .links {
                 display: inline-block;
                 font-family: 'Source Sans Pro', sans-serif;
@@ -47,6 +47,7 @@ body {
                 line-height: 22px;
                 color: #FFFFFF;
                 padding-left: 10px;
+                
             }
         }     
     }
@@ -109,7 +110,7 @@ body {
             color: #FFFFFF;
         }
         ol {
-            align-self: center;
+            align-self: flex-end;
             .links {
                 display: inline-block;
                 font-family: 'Source Sans Pro', sans-serif;

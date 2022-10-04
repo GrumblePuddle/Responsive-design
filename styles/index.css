@@ -34,7 +34,7 @@ body {
     color: #FFFFFF;
   }
   nav ol {
-    align-self: center;
+    align-self: flex-end;
   }
   nav ol .links {
     display: inline-block;
@@ -100,7 +100,7 @@ body {
     color: #FFFFFF;
   }
   nav ol {
-    align-self: center;
+    align-self: flex-end;
   }
   nav ol .links {
     display: inline-block;
