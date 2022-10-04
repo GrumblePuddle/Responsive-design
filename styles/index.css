@@ -2,6 +2,7 @@ body {
   background-color: black;
 }
 
+/*Largest screen code*/
 @media screen and (min-width: 1001px) {
   main {
     max-width: 1200px;
@@ -69,6 +70,7 @@ body {
     color: #FFFFFF;
   }
 }
+/*Mid screen code*/
 @media screen and (max-width: 1000px) {
   main {
     max-width: 1000px;
@@ -138,6 +140,7 @@ body {
     text-align: center;
   }
 }
+/*Smallest screen code*/
 @media screen and (max-width: 800px) {
   main {
     max-width: 800px;
